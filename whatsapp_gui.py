@@ -15,7 +15,7 @@ from whatsapp_sender import (
 )
 
 
-APP_TITLE = "Enviador WhatsApp"
+APP_TITLE = "Disparador de MSG"
 ENV_PATH = ".env"
 
 
@@ -67,7 +67,7 @@ class WhatsAppSenderApp(tk.Tk):
 
         header = ttk.Frame(root)
         header.pack(fill=tk.X, pady=(0, 14))
-        ttk.Label(header, text="Enviador WhatsApp", style="Title.TLabel").pack(side=tk.LEFT)
+        ttk.Label(header, text="Disparador de MSG", style="Title.TLabel").pack(side=tk.LEFT)
 
         actions = ttk.Frame(header)
         actions.pack(side=tk.RIGHT)

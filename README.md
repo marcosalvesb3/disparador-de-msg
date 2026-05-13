@@ -1,4 +1,4 @@
-# Enviador de WhatsApp em Python
+# Disparador de MSG
 
 App simples para enviar mensagens para varios contatos usando a API oficial WhatsApp Cloud API da Meta.
 
